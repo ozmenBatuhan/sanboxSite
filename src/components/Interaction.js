@@ -5,9 +5,10 @@ export default function Interaction() {
 
   return (
     <section className="interaction">
-      <h2>Ti piace Antalya?</h2>
+      <h2>Aimez-vous Antalya ?</h2>
       <p>
-        Premi il cuore per mostrare il tuo amore per questa meravigliosa città!
+        Appuyez sur le cœur pour montrer votre amour pour cette ville
+        merveilleuse !
       </p>
       <button
         className="like-btn"

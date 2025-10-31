@@ -3,10 +3,10 @@ export default function Hero() {
     <section className="hero">
       <img src="/images/antalya-hero.jpg" alt="Antalya" className="hero-img" />
       <div className="hero-text">
-        <h1>Benvenuti ad Antalya</h1>
-        <p>Scopri la perla del Mediterraneo: sole, storia e mare cristallino.</p>
+        <h1>Bienvenue à Antalya</h1>
+        <p>Découvrez la perle de la Méditerranée : soleil, histoire et mer cristalline.</p>
         <button onClick={() => window.scrollTo({ top: 600, behavior: "smooth" })}>
-          Esplora Ora
+          Explorer Maintenant
         </button>
       </div>
     </section>

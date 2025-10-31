@@ -1,12 +1,13 @@
 export default function About() {
   return (
     <section id="about" className="about">
-      <h2>Chi è Antalya?</h2>
+      <h2>Qui est Antalya ?</h2>
       <p>
-        Situata sulla costa meridionale della Turchia, Antalya è famosa per le sue
-        spiagge dorate, i tramonti mozzafiato e la ricca eredità storica.
-        Passeggia tra le stradine di Kaleiçi, gusta la cucina locale e lasciati
-        incantare dall’atmosfera mediterranea.
+        Située sur la côte sud de la Turquie, Antalya est célèbre pour ses
+        plages dorées, ses couchers de soleil à couper le souffle et son riche
+        patrimoine historique. Promenez-vous dans les ruelles de Kaleiçi,
+        dégustez la cuisine locale et laissez-vous enchanter par l'atmosphère
+        méditerranéenne.
       </p>
     </section>
   );

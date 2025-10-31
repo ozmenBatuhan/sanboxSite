@@ -1,14 +1,14 @@
 export default function Footer() {
   return (
     <footer id="contact" className="footer">
-      <p>© 2025 Antalya Esperienza — Tutti i diritti riservati</p>
+      <p>© 2025 Expérience Antalya — Tous droits réservés</p>
       <p>
-        Seguici su{" "}
+        Suivez-nous sur{" "}
         <span
           role="button"
           tabIndex={0}
-          onClick={() => alert("Instagram in arrivo!")}
-          onKeyDown={(e) => e.key === "Enter" && alert("Instagram in arrivo!")}
+          onClick={() => alert("Instagram à venir !")}
+          onKeyDown={(e) => e.key === "Enter" && alert("Instagram à venir !")}
           className="text-blue-500 underline cursor-pointer"
         >
           Instagram
@@ -17,8 +17,8 @@ export default function Footer() {
         <span
           role="button"
           tabIndex={0}
-          onClick={() => alert("Facebook in arrivo!")}
-          onKeyDown={(e) => e.key === "Enter" && alert("Facebook in arrivo!")}
+          onClick={() => alert("Facebook à venir !")}
+          onKeyDown={(e) => e.key === "Enter" && alert("Facebook à venir !")}
           className="text-blue-500 underline cursor-pointer"
         >
           Facebook
