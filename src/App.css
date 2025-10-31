@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header */
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #0099cc;
+  color: white;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  transition: opacity 0.2s;
+}
+.header a:hover {
+  opacity: 0.8;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  text-align: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.hero-img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero button {
+  background: #ff6b81;
+  border: none;
+  padding: 0.8rem 1.4rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.hero button:hover {
+  background: #ff4757;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* About */
+.about {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #f8f8f8;
+}
+.about h2 {
+  color: #0099cc;
+}
+
+/* Gallery */
+.gallery {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+.gallery-item img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+.gallery-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Interaction */
+.interaction {
+  padding: 3rem 2rem;
+  text-align: center;
+  background: #f0faff;
+}
+.like-btn {
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+/* Footer */
+.footer {
+  background: #0099cc;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+.footer a {
+  color: white;
+  text-decoration: underline;
 }
