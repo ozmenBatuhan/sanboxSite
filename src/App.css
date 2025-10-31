@@ -112,3 +112,10 @@ body {
   color: white;
   text-decoration: underline;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+/* Diğer global stilleriniz buraya gelebilir */
+html {
+  scroll-behavior: smooth;
+}
